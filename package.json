@@ -1,0 +1,29 @@
+{
+  "name": "snusbase-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "snusbase": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "snusbase",
+    "snusbase-api"
+  ],
+  "author": "vMohammad",
+  "license": "MIT",
+  "description": "A simple CLI tool to interact with Snusbase API",
+  "dependencies": {
+    "commander": "^13.0.0",
+    "snusbase": "^1.0.3"
+  },
+  "homepage": "https://github.com/vMohammad24/snusbase-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vMohammad24/snusbase-cli"
+  }
+}
